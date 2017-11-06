@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC79ED81FAF3BAF002771E1 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC79ED61FAF3BAF002771E1 /* BookManager.swift */; };
+		4EC79ED91FAF3BAF002771E1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC79ED71FAF3BAF002771E1 /* Book.swift */; };
 		4EDDD7771FAEDC7100B09FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDD7761FAEDC7100B09FC3 /* AppDelegate.swift */; };
 		4EDDD7791FAEDC7100B09FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDD7781FAEDC7100B09FC3 /* ViewController.swift */; };
 		4EDDD77C1FAEDC7100B09FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDD77A1FAEDC7100B09FC3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EC79ED61FAF3BAF002771E1 /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		4EC79ED71FAF3BAF002771E1 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		4EDDD7731FAEDC7100B09FC3 /* VisualBookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualBookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDDD7761FAEDC7100B09FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDDD7781FAEDC7100B09FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				4EDDD7761FAEDC7100B09FC3 /* AppDelegate.swift */,
 				4EDDD7781FAEDC7100B09FC3 /* ViewController.swift */,
+				4EC79ED71FAF3BAF002771E1 /* Book.swift */,
+				4EC79ED61FAF3BAF002771E1 /* BookManager.swift */,
 				4EDDD77A1FAEDC7100B09FC3 /* Main.storyboard */,
 				4EDDD77D1FAEDC7100B09FC3 /* Assets.xcassets */,
 				4EDDD77F1FAEDC7100B09FC3 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC79ED91FAF3BAF002771E1 /* Book.swift in Sources */,
+				4EC79ED81FAF3BAF002771E1 /* BookManager.swift in Sources */,
 				4EDDD7791FAEDC7100B09FC3 /* ViewController.swift in Sources */,
 				4EDDD7771FAEDC7100B09FC3 /* AppDelegate.swift in Sources */,
 			);
